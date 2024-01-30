@@ -1,0 +1,4 @@
+baseURL = 'https://defektive.dev/'
+languageCode = 'en-us'
+title = 'Defektive Development'
+theme = "defektive-hugo-theme"  
