@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (var i = 0; i < burger.length; i++) {
             burger[i].addEventListener('click', function() {
                 for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('hidden');
+                    menu[j].classList.toggle('d-none');
                 }
             });
         }
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (var i = 0; i < close.length; i++) {
             close[i].addEventListener('click', function() {
                 for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('hidden');
+                    menu[j].classList.toggle('d-none');
                 }
             });
         }
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (var i = 0; i < backdrop.length; i++) {
             backdrop[i].addEventListener('click', function() {
                 for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('hidden');
+                    menu[j].classList.toggle('d-none');
                 }
             });
         }

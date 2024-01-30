@@ -3,21 +3,27 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="antialiased bg-body text-body font-body text-white">
+<body class="antialiased bg-secondary-dark font-body text-white">
 
-  <div class="">
     {{ partial "header.html" . }}
 
-    <section class="relative py-10 2xl:py-40 bg-gray-800 overflow-hidden">
-      <div class="relative container px-4 mx-auto">
-        <div>
-          <div class="flex flex-wrap -m-6">
-          {{ block "main" . }}{{ end }}
-          </div>
-        </div>
-      </div>
+    {{ block "main" . }}{{ end }}
 
-    {{ partial "footer.html" . }}
-  </div>
+    
+    
+    
+
+    
+    
+    
+    
+    {{ partial "footer-lots-o-links.html" . }}
+
+
+
+
+
+
+    {{ partial "head/js.html" . }}
 </body>
 </html>

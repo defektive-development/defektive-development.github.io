@@ -1,8 +1,14 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+<section class="position-relative bg-secondary-dark ">
+  <div class="container position-relative">
+    <div class="row mw-5xl mx-auto">
+
+<h1>{{ .Title }}</h1>
   {{ .Content }}
   {{ range .Pages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Summary }}
   {{ end }}
+
+  </div></div></section>
 {{ end }}
