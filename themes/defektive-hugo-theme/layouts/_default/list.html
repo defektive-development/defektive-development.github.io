@@ -3,10 +3,10 @@
   <div class="container position-relative">
     <div class="row mw-5xl mx-auto">
 
-<h1>{{ .Title }}</h1>
+<h4 class="text-secondary-light" >{{ .Title }}</h4>
   {{ .Content }}
   {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <h5><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h5>
     {{ .Summary }}
   {{ end }}
 
